@@ -9,8 +9,11 @@ Depends:
 License: What license is it under?
 LazyData: TRUE
 Imports:
-    data.table
+    data.table,
+    Rcpp
 Suggests:
     dplyr,
-    Rcpp
+    Rcpp,
+    testthat
 RoxygenNote: 5.0.1
+LinkingTo: Rcpp

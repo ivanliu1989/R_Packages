@@ -22,5 +22,6 @@
 # devtools::use_package("data.table")
 # devtools::use_package("Rcpp", "Suggests")
 # devtools::create()
-
-
+# devtools::use_testthat()
+# devtools::use_rcpp()
+devtools::use_rcpp()

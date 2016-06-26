@@ -8,4 +8,6 @@
 #'
 #' @docType package
 #' @name ivanr
+#' @useDynLib ivanr
+#' @importFrom Rcpp sourceCpp
 NULL

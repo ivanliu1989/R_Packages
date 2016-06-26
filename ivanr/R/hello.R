@@ -17,6 +17,7 @@
 #   Jump to a function:        'F2 / Ctrl + .'
 #   Convert roxygen comments   'Ctrl + Shift + D' devtools::document()
 #   Reflow comments            'Ctrl + Shift + /'
+#   Unit Test                  'Ctrl + Shift + T' devtools::test()
 hello <- function() {
   print("Hello, world!")
 }
