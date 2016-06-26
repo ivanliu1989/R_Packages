@@ -1,8 +1,16 @@
 Package: ivanr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A package of daily use
 Version: 0.1.0
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: More about what it does (maybe more than one line)
+Authors@R: person("Ivan", "Liu", email = "ivan.liuyanfeng@gmail.com", role = c("aut", "cre"))
+Description: Some interesting & useful functions created for personal use
+Depends:
+    R (>= 3.1.0)
 License: What license is it under?
 LazyData: TRUE
+Imports:
+    data.table
+Suggests:
+    dplyr,
+    Rcpp
+RoxygenNote: 5.0.1
